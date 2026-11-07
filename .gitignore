@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Training data
+English/raw_data/
+Telugu/raw_data/
+English/processed/audio/
+Telugu/processed/audio/
+
+# Large training artifacts
+English/checkpoints/
+Telugu/checkpoints/
+English/checkpoints_improved/
+English/checkpoints_normalized/
+
+# Intermediate arrays
+*.npy
+*.npz
+
+# Local credentials
+.env
+*.token
